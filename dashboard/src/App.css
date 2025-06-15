@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito',sans-serif;
+}
+::-webkit-scrollbar {
+  width: 8px; /* Makes the scrollbar thinner */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Light grey track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a0a0a0; /* Grey thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #afadad; /* Slightly darker grey on hover */
+}
+.avatar-update-btn::file-selector-button {
+  width: 100%;
+  padding: 7px;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1px solid hsl(222.2 47.4% 11.2%);
+  background: hsl(222.2 47.4% 11.2%);
+  cursor: pointer;
+  color: #fff;
+}
+.avatar-update-btn::file-selector-button:hover {
+  background: transparent;
+  color: hsl(222.2 47.4% 11.2%);
+}
